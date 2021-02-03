@@ -5,6 +5,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```swift
+NetworkManager.host("http://www.test.com/")
+
 NetworkManager.startRequest { manager -> NetworkManager in
     manager.requestType(.post)
         .origialData(origialData: { (jsonString, reponseData) in
