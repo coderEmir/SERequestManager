@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (5.4.1)
+  - AliyunOSSiOS (2.10.8)
+  - SERequestManager (0.1.0):
+    - Alamofire (~> 5.4.1)
+    - AliyunOSSiOS (~> 2.10.8)
+
+DEPENDENCIES:
+  - SERequestManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AliyunOSSiOS
+
+EXTERNAL SOURCES:
+  SERequestManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
+  SERequestManager: 562c124e0deca0913b454a629cd379c004d18457
+
+PODFILE CHECKSUM: 3970853df77e643c1d573e4f205fe90e5075d9c6
+
+COCOAPODS: 1.10.1

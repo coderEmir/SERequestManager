@@ -1,0 +1,1720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0077CF834F9D5117F60FCBD33EAE7C65 /* OSSIPv6Adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E830273D0900AB7A331DA124992314 /* OSSIPv6Adapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3AA16E4C1EE9323E748DF45C4E9F5 /* HTTPMethod.swift */; };
+		018E7A8B4839BE08E798EB2171DD5CF0 /* NSMutableDictionary+OSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DB73A974B5308F704B6AAF55B889C /* NSMutableDictionary+OSS.m */; };
+		04DD99368B182E3E9050A77CB2BA3DE9 /* OSSDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3B4D3A16A776D0D98446F49668016 /* OSSDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		071B04ED7DC29F8694892A9465DC05DF /* OSSRestoreObjectResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D756618A5B86A2DDC2909A6938255ED0 /* OSSRestoreObjectResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081E4C3465E0F9B4F5F0036A3E460D01 /* OSSGetBucketInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEFC973C9C599DA357515467759A36 /* OSSGetBucketInfoResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A181FA53AEDA0FF0C153F9020E71401 /* OSSXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C00ED021D1E466408E1170C080591F2 /* OSSXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D136E4DDD4EAA8E19B10773DC3444 /* Combine.swift */; };
+		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC831BA885754C35C5C43AA29599EF6 /* OperationQueue+Alamofire.swift */; };
+		0CF1CE4274D0F19CD6796399C0FB22A0 /* OSSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 56856BF3D87719B27298E69F432F33CF /* OSSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1EC5641F2709DB49B95BDFC11DCC06 /* OSSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADFDF6B9BA2D3B2C4928B4920EE645 /* OSSTask.m */; };
+		0F9F85D732B1C3754A7FD02461429A89 /* Pods-SERequestManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8C981581AE034EBE65DEB2FB1F443 /* Pods-SERequestManager_Example-dummy.m */; };
+		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A169C7C5A2C25C7DDD79282BE0C773 /* AFError.swift */; };
+		1426268AD5CF24CEAA172A87473952E6 /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A5FF68EC3F1FF6B8099CC963784EE /* OSSClient.m */; };
+		18227B51FD69A194F5EB04C0ECC5D761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */; };
+		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85958BC46A84E0C2F53341E26D6C487D /* NetworkReachabilityManager.swift */; };
+		1AEB8B02B85940F6DE880F6E6A80884A /* OSSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 12704F7632637F9EF58EFA69026D8427 /* OSSCompat.m */; };
+		1B9AB9B82741579088F4DC456E59A886 /* OSSPutSymlinkResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F891E8E3A414187AC4BF8FE240EB5 /* OSSPutSymlinkResult.m */; };
+		1CE3BA6001C6B0E74869AE8CDFBCF62D /* OSSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = B53A441530A422080089BCF2AE25171F /* OSSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3923D325A67A4FB45820E6D4042FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */; };
+		1FF94E169E55EDE1E2ED37C20CDA87DD /* OSSResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF86DF322B23FFA5F22F6DF714B8F08 /* OSSResult.m */; };
+		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B94BE8EA74489F82BE9C088DC6BD0D /* StringEncoding+Alamofire.swift */; };
+		215F87685075904E78BFE3D315B268FD /* OSSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D01949DA4BFE599F47A84AE205B80E4 /* OSSFileLogger.m */; };
+		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368022BAF0ACC4370CE232F06DD9DB9 /* Protected.swift */; };
+		22F3DCDEA26D5C4575D4E96F931BEB28 /* OSSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5B86FD2AD9A37EC0EDE7300970D34 /* OSSRequest.m */; };
+		273318B7B696EA4E3C66CFB5EDCB685F /* OSSGetObjectACLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F96ABF70C566D463E75AA6D21AD82838 /* OSSGetObjectACLRequest.m */; };
+		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D73F9ED299C63486FE31DDF95267E3 /* DispatchQueue+Alamofire.swift */; };
+		2EAF7F8B195230DBA6C76EDC22E49F52 /* OSSTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 0462A695BC8CA950195B72906D5D7DEE /* OSSTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F590E1C670F7EB812CE6EE7CD4F9756 /* OSSGetBucketInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FDBF6DFFA62C75DD31BF10C23CFF8D /* OSSGetBucketInfoRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C2036FB8E47A97535018E1C0C4B645 /* OSSGetSymlinkResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC6FBA96A60AD90B99020A967BB96E0 /* OSSGetSymlinkResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327A69CD53D4C843D10FA89AE546E915 /* SERequestManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F36FCEB3CFE57EA0FA68D2E5593E7D37 /* SERequestManager-dummy.m */; };
+		3647BF43DDA8F12DAA4BD98E32CB4778 /* OSSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BBE6D34CCAB18D1F832773610A2266 /* OSSCancellationTokenSource.m */; };
+		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37D1F9C66B8F0AA32146BCE31CEC1B /* SessionDelegate.swift */; };
+		38B20A5B77A7F7758F85C10531EE9626 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FFF587BA7CC7A4588034E820190E3 /* UIImageExtension.swift */; };
+		3C6447915C4615EE346AC9BD5CDC39F3 /* SERequestManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 107B39621F1B46C2905DC0E75A182409 /* SERequestManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F70889C219316231C46B9E0C91D18E0 /* OSSLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F32A99293CEFA8337E9CC0EB260EEB5E /* OSSLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F973E01260157516BCDAB44292FA8C2 /* OSSExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7532187BFF915B5662C89BD17EDB015B /* OSSExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4074985C0A63424F5EA9BD8CB7B64EB4 /* OSSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 655770D8B8D99341C47EA9075FFD6E75 /* OSSConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42E7197A935DD9F25D2F4619FA0FC7A1 /* OSSGetSymlinkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8E630F5C80EF7B8AE9FDCC47533B /* OSSGetSymlinkRequest.m */; };
+		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F626B4AB816E473C345B22FA98D63 /* MultipartFormData.swift */; };
+		45C27FDBEDC8BB7E2ACDABB0D2C647B0 /* OSSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 626149C33E9ABE7B2C071B2E307E096C /* OSSCancellationTokenRegistration.m */; };
+		4744FA49B307034B885AD78F6B943D60 /* OSSNetworkingRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B170C9F695C0C65F15A7C2E7ABA499F7 /* OSSNetworkingRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */; };
+		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E480B78042A60318AC6B9BDA4E832 /* ServerTrustEvaluation.swift */; };
+		4A16606B70A1263CB6A555201EDEF51F /* OSSDeleteMultipleObjectsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DC75F6339BE42E33F217B4943445E /* OSSDeleteMultipleObjectsRequest.m */; };
+		4A91B4EA909BC0A487D54A602464CC54 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74669C443D1808DF7A4C1E6A943F1445 /* Alamofire.framework */; };
+		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF273DD6DA40E6E39B1BA47F6F547A /* ParameterEncoder.swift */; };
+		502823DCA6E015C547FB5686D87AE2AD /* OSSHttpResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C45CE0D7D03EA736C4AAEA938097E77 /* OSSHttpResponseParser.m */; };
+		522192B08337C3360756D2A4B1557190 /* NSDate+OSS.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE15704A38F7242FB3CFBB921CF486C /* NSDate+OSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5406DAE268E7F183496E52B132CD910B /* OSSGetSymlinkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0247FAFBCD61EB2E3F6BCBBD522165 /* OSSGetSymlinkRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A993B48332EAA550BBCEBFE99F1C7B5 /* OSSCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FDCBDCEF34CBF9BBC3A5044B9DF10E /* OSSCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B798C21E01283B08CEB4400DF754884 /* OSSRestoreObjectRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9810F12F6259401F966C31830EF6A35C /* OSSRestoreObjectRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE6274DC40B5875D8445376CF1502AE /* OSSDDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B5A55312DF919E2D06BFABB8926682 /* OSSDDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		622446F539FD44C811285E4B2ECD1F93 /* OSSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C1E718AE44022D91B0BAE3C037BC18 /* OSSLog.m */; };
+		625CA10FE1EB01C67C8C151E6FBE0EB9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DD882955F35EF8538B43A2021CF674 /* CoreTelephony.framework */; };
+		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E74C878D1201C3F36E47B58E6D3B1 /* EventMonitor.swift */; };
+		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0394B7D67DE0B403E299E845FF683677 /* RedirectHandler.swift */; };
+		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C273B04AA1D81D5A31AF683BAB131 /* Result+Alamofire.swift */; };
+		687212392DC3BF1D379684CB56F79861 /* AliyunOSSiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C83AC009FA897CE1018C1D7C557495C /* AliyunOSSiOS.framework */; };
+		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE929DA0EA103918785C363C8695D7 /* Session.swift */; };
+		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E35D60849F34D7BFD16EF0BF5E33A5 /* RequestTaskMap.swift */; };
+		6C18F1130C9469B9C64DBA42000FAE41 /* OSSResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 171293C192F6576F3B7C0B81D39B6ACA /* OSSResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B94FADCF2BDE3A720C48F522244305 /* RequestInterceptor.swift */; };
+		7123D6113F13744AFB5D33EBECCB85DD /* OSSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E05B2362F185D50A0E3D7D85EBB9362D /* OSSDDLog.m */; };
+		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E58518B577202E081F7F4FF81E0C8 /* AlamofireExtended.swift */; };
+		732581AFF5E942902154A0B19D462214 /* OSSCocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 82489B0D7FE61C6BB267E18CA6AFF87B /* OSSCocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CBE7E6F4357D65B69FD6B457074044 /* OSSRestoreObjectResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A33FCE30E9066A6E51B4A90C427A7 /* OSSRestoreObjectResult.m */; };
+		740FBF8C565D8CD05AD901B47ED49B1A /* aos_crc64.h in Headers */ = {isa = PBXBuildFile; fileRef = 795FB3174717AF99DAEBB79ABD048604 /* aos_crc64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753D265C10B7B95707DD2C1CFE5DA3A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */; };
+		7790AB4F27DE39036FA0DB45A4B031AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F93EFC7F7681E85D231EEB2F978D4A /* NetworkManager.swift */; };
+		78B1F7AF2AE722E0E1B9A419A5A00AB6 /* OSSPutSymlinkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0A2DF0F2AC7F7BD020CD1761DDB1F /* OSSPutSymlinkRequest.m */; };
+		78B866A6DE55E62FDCFED3A62660F833 /* OSSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF99493C9404904643624C1F16205A /* OSSReachability.m */; };
+		7920AF744958B4AE67E8F5FECF3DF9DA /* OSSTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB8593B7836BEF4ECB6CCA7D6E6E234 /* OSSTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C763E74BADC2BA59C9C7105A80416FC /* OSSCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 925DCC1FA51A673327B16B816CC2A5A5 /* OSSCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C7E709FCC53EDA7D41DF6410887EBC /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDC854F584A3B18656D3A4A53BA0A09 /* NSDate+OSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D094EA4262E40913FBD2CFB9BE56286 /* NSDate+OSS.m */; };
+		7DF675A414246D772B7D6FB5E080979B /* OSSGetObjectACLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAE5F81805025A9A838576791A6AC9D /* OSSGetObjectACLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86899E5FF1FA400890CDAFB24B938929 /* OSSPutSymlinkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 70410809C18B9791A2531931F782C4EC /* OSSPutSymlinkRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888D1D2C88331A10D3F091A449E18BCD /* OSSInputStreamHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C36C6E464781D01006D9750BFDD1D2C0 /* OSSInputStreamHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A32AB9D726C64AB8B1142AA84DF70C /* OSSCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A591BA01A3690CED545EAD0F0AE25F2 /* OSSCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2DF60B5AB9DC51C3020D1BA93C57D /* Notifications.swift */; };
+		8E28B0D6E9198FAE5CCF4C9E9962EB54 /* NSMutableData+OSS_CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = C26FEDAE29A2E8F372CBD244304D581D /* NSMutableData+OSS_CRC.m */; };
+		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269BA156374CB795D632A3FC622DA31E /* ResponseSerialization.swift */; };
+		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D3E8476869BBAB870B8E37D010E24 /* HTTPHeaders.swift */; };
+		939D1685288AD7430265C65AB8CE4558 /* OSSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE64ABEB61873D05C89201F125D1AE1 /* OSSClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D148663C1A0DFFFBE52E2EE3831A68 /* OSSAllRequestNeededMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A6C87CA1CA1F294857782D04F20535 /* OSSAllRequestNeededMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97641C473F8781BA5A33C62D3F80103B /* NSMutableData+OSS_CRC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5789D2FB1B7E9E2858222B1BF2B923B5 /* NSMutableData+OSS_CRC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B1143540D2D22FA7F7E046C31F9EEAD /* OSSGetBucketInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B986C3A51193EE6AE33050E7E2CF6C1 /* OSSGetBucketInfoRequest.m */; };
+		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D678AC05D8AF77BF271929E786F6B1 /* URLConvertible+URLRequestConvertible.swift */; };
+		9D90425FBA73DC4FD471E0C6F0B6B456 /* OSSDeleteMultipleObjectsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE9CDB17294E950DD5EB87CCFB1CE1 /* OSSDeleteMultipleObjectsResult.m */; };
+		9DF4A9F3F2A6032864A665EE40570E26 /* Pods-SERequestManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668788DFC5CB888022C17F44137F42F4 /* Pods-SERequestManager_Tests-dummy.m */; };
+		9FA7F458D20D68AFC51F9E231F6DB03F /* OSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF9C34B53BEDC41FCB923A3BE16EC8 /* OSSUtil.m */; };
+		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18357C9C2C9B3DCBA58B613CF6A7730F /* RetryPolicy.swift */; };
+		A042B25C26D71C806B01FD7A05882F44 /* OSSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 879C5EA750F88E1D03EB1A4B35685D53 /* OSSExecutor.m */; };
+		A0CAB970E151A8474D33EEA58ECBCFCC /* OSSIPv6PrefixResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7590559B27C0C552E60178C5CF17ACDC /* OSSIPv6PrefixResolver.m */; };
+		A3035733D2C73AFC1B023D6C86AD5D85 /* OSSBolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 20705EAF4EDA574E25B4CA5E14A41089 /* OSSBolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B307B49CBFB6C6705EBB6070B9C6BC /* OSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3592C80A2A8F26A36B14CA7294103 /* OSSModel.m */; };
+		A7C300B9C8619740693E8C7A74187F8B /* OSSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A28F509B410744BB8A9352E9C79385 /* OSSBolts.m */; };
+		A879B8AB4FE4DF0D31CF4BBFF36D1445 /* OSSGetBucketInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F93D73F1F1B4C640263D327982E20915 /* OSSGetBucketInfoResult.m */; };
+		A8A2BAA48E12F269AAC7CFF94B9A8D06 /* OSSHttpdns.h in Headers */ = {isa = PBXBuildFile; fileRef = 77124852D098A35E8BC41B82A38F4825 /* OSSHttpdns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719684DB2C0925A0014A9DA4C2DD5A63 /* CFNetwork.framework */; };
+		A9EC6EAC3CD5F48EF0188C7C7443DCD8 /* OSSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6947B9795BF2C652D3C4FF167200C6DD /* OSSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2D5C6DFE4CE745B18D748E7C74F019 /* Pods-SERequestManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD29D0FC8CBDFF0F16BB6BBAD2CFF8E /* Pods-SERequestManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9AA577D500C0DCFB73082AD22D7DD /* CachedResponseHandler.swift */; };
+		ACDDC842F261B5810D854B859C8212C4 /* OSSDeleteMultipleObjectsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A795836D93B09494778A2C35E1B8A573 /* OSSDeleteMultipleObjectsResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13C6943BCC29959546356B99E596AC1 /* OSSFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FA08295144B9F288CB182410DDB316E6 /* OSSFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2889E693235333D6288F979197BF928 /* OSSIPv6PrefixResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E13E36C3B63043A87E26E9EFE93D6F3 /* OSSIPv6PrefixResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2BD0F84BFABB12BF92C3127E2BA236C /* OSSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 072ACCF3F862D279085D313B59B491A5 /* OSSXMLDictionary.m */; };
+		B44A73C30105CE2F9AF4895F788D92EC /* OSSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1298773ACD06210C2825006E9C4E6E82 /* OSSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B821B0D647ECF9CF4096CEA1F573C8CF /* NSMutableDictionary+OSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9CCC9BB2E8AACC2E1DE2B77474DB9D /* NSMutableDictionary+OSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8569A63B410883F757627E2B821D099 /* OSSNetworkingRequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E681DAFF9742A751340CC5AFA128A6F /* OSSNetworkingRequestDelegate.m */; };
+		B99B701A96A85B144FB6E6388E446FAF /* OSSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFACD90D4DF5374212B558C554A3F74 /* OSSModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2C15E80EAD83BCBD8AD5FE3AE65588 /* OSSURLRequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C481CCCBC78B88984E44687D81766786 /* OSSURLRequestRetryHandler.m */; };
+		BBFC625F967BC64631F5864FE7CDFA24 /* OSSInputStreamHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BBA86D52F99CB63A0617A530513F43 /* OSSInputStreamHelper.m */; };
+		BBFE985446128878A006DA16C00169C2 /* OSSGetSymlinkResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0509E9315C72D211C813DAF4FEF58A0F /* OSSGetSymlinkResult.m */; };
+		BD5C896439FC0AEE95AB36D87E2808E7 /* AnalyzeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45193340463179523D469B3C4AECA7 /* AnalyzeResponse.swift */; };
+		BFB32F0A4F42036BFD1BCE4BB7199B2C /* AliyunOSSiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F4121950883AE083D1C83473AAD047 /* AliyunOSSiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B643066540012D73E4AFBF4B9BC6B4AA /* Response.swift */; };
+		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D46132192A0641AE0B2B808CD8EC59 /* Alamofire.swift */; };
+		C360F0122BE9BCBC369E5EB0AA51C45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */; };
+		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAECDE3A91B109FC30882C32907AD77 /* Alamofire-dummy.m */; };
+		CC44C72CADC3ACB57B2472ECDACB4664 /* OSSHttpResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F424978885E18CF30C9FDB0A3A8ACB8C /* OSSHttpResponseParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A094FBA4558A871B46167D450E8E681 /* MultipartUpload.swift */; };
+		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A280BFAB4DCC5A7A2EB484E0A019DD7 /* ParameterEncoding.swift */; };
+		D1B64733E0BF3D6655208D75659AAFBA /* CredentialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A1CDB2D85B76E50C0F2EC0D4F0BC7 /* CredentialModel.swift */; };
+		D1C84FBFFEFBC401BD9EB6DE4CB384DD /* aos_crc64.c in Sources */ = {isa = PBXBuildFile; fileRef = 685A54B7FD43F7BC664E602C292B0BCB /* aos_crc64.c */; };
+		D286389FA98A794602C3B9B55A37E640 /* OSSNSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8F326761E15CBE845AF92F0C5D6C73 /* OSSNSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2CF18649FA2DA6760180325DEF902 /* URLEncodedFormEncoder.swift */; };
+		D350178265B051193AFF2445D3567312 /* OSSDeleteMultipleObjectsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB9F97862B24357D137870A608A2155 /* OSSDeleteMultipleObjectsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D385F6435E802C0CF6435DD93E949C29 /* OSSGetObjectACLResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFEAA4F404DBBB5A424DDD1E37F14D7 /* OSSGetObjectACLResult.m */; };
+		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1035041CC7F32A5E79C4AD8A72932D /* URLRequest+Alamofire.swift */; };
+		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FED227A32B96A3B401A02CA1E9116 /* AuthenticationInterceptor.swift */; };
+		DDF4E540165C1957DB365D5143FA67B1 /* OSSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FA710B90867426B3A9CAADC34E661D88 /* OSSNetworking.m */; };
+		DF4D5BD2ED028F2194147809431457A5 /* OSSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C26536F240B2652C595D60A56F14A3 /* OSSTaskCompletionSource.m */; };
+		E091F93C8660ACD457F2199693E12D5E /* OSSHttpdns.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E349F1913C1A0CC6D51FEC5C360729 /* OSSHttpdns.m */; };
+		E096320C57A54D9E5427E7765D8F4490 /* OSSReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F0862491F01D63FFDED64EB24BC34C07 /* OSSReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0EA49A8B1E42FBA836749A7739EFD50 /* OSSURLRequestRetryHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D8F4595A51F0B05858AF711B3C3D8F /* OSSURLRequestRetryHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E271696B8E52D0FB1A873482877BCB6C /* OSSGetObjectACLResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAE03F8F3D92AF096D2DCBC741D2719 /* OSSGetObjectACLResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84AD0CA3BA20AE466D617BA7D9288EC /* OSSNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08519CEDB41C95BD06BED2A3D9D64E /* OSSNSLogger.m */; };
+		EDAED85A1D7269FDA33312B12B73C251 /* OSSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 65567B150BB207AC0CE9D427EA7A837F /* OSSConstants.m */; };
+		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67199C28FAA49522229261D46FD6DA50 /* Request.swift */; };
+		EE0CE059FA7E3427EB1B29411A853B40 /* OSSPutSymlinkResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DA5221EB9C404A74391894DC421BD0 /* OSSPutSymlinkResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF78BED4C128D5BBB90C94890C1453F7 /* OSSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1366A924BBBCCB30529F3081C6B853 /* OSSCancellationToken.m */; };
+		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B680497EED98157108F8F9673BCEC9E /* Validation.swift */; };
+		F1097320E51690DF11B15B1E0D36CCD4 /* OSSService.h in Headers */ = {isa = PBXBuildFile; fileRef = A56777AEB0B5A819350044624C157B5C /* OSSService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F21317EC249C47CE2FB578760652712A /* OSSAllRequestNeededMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 637FADF3199E28D071178F47B1820FBC /* OSSAllRequestNeededMessage.m */; };
+		F266104AABC53D6D48F44D1772CAA20F /* OSSCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 326E27AA72328B5EE2C778583164CBDE /* OSSCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E39D9EE750CD30905D6D7AA8C7FF04 /* OSSRestoreObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 095BC6FB66D8C5DF918C7466E80270FF /* OSSRestoreObjectRequest.m */; };
+		F6ED823C7CBD88E002E0848F12F6BAB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614E6FE1CF4E28E403B7802251BF6E6D /* SystemConfiguration.framework */; };
+		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EFA824100AFBF1DADF31EBD2EF7F39 /* URLSessionConfiguration+Alamofire.swift */; };
+		F7731CFF79A480E60F32E19B79A7D278 /* AliyunOSSiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B36D08840E78F08E24104658C4DF8AEC /* AliyunOSSiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF88B91D40B4ED99CA36B6ECFCCE759 /* UploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02CA3D198F79ADF07E660B6859C92F /* UploadManager.swift */; };
+		FBFFB31CA8AE7F16F7BF8BAE1DF31926 /* Pods-SERequestManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA8B143E342F94A61E969976D5C5444 /* Pods-SERequestManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2FDC3C4172009A5A706D14B77E43AA /* OSSReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F0E159752E9C3035CE9579A31EB49 /* OSSReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD74D4E9805C4CF8B5A19DBD146E2358 /* OSSIPv6Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 498EC7D5A6D175B4E8AE955958101096 /* OSSIPv6Adapter.m */; };
+		FF5F2F3F5888E2C14F3A7B59026B6EEF /* AliyunOSSiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B0AD816EBB4178BE52EF5346C4ED4A /* AliyunOSSiOS-dummy.m */; };
+		FF9079DACB7DC64ED83CEA915076670B /* OSSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 607210BD884DBA581D9C09E1F9D072F5 /* OSSReachabilityManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		535F2A1D874CD7088DF71AABB4E18A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF86D106AAFECC6F30DF95BD5C76D023;
+			remoteInfo = "Pods-SERequestManager_Example";
+		};
+		616492897CCDE14C69A95D97DA526B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		6E7E06397B23ACFFC56888BAF5BFD963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FD11F5F7EBFF63F845CDF963F73E1A;
+			remoteInfo = AliyunOSSiOS;
+		};
+		906C98AD1684FCC185938335612F21D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		94C41023F61EB17C48DF63434A9459FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F73D0ACEA50BFBA99B15FFBC90EC4F;
+			remoteInfo = SERequestManager;
+		};
+		C610130CDEB64F4B235F42EA702AD829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FD11F5F7EBFF63F845CDF963F73E1A;
+			remoteInfo = AliyunOSSiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D73F9ED299C63486FE31DDF95267E3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		0209515BBE0A6C341B1336186D28324C /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		0394B7D67DE0B403E299E845FF683677 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		0462A695BC8CA950195B72906D5D7DEE /* OSSTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTask.h; path = AliyunOSSSDK/OSSTask/OSSTask.h; sourceTree = "<group>"; };
+		0509E9315C72D211C813DAF4FEF58A0F /* OSSGetSymlinkResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetSymlinkResult.m; path = AliyunOSSSDK/OSSGetSymlinkResult.m; sourceTree = "<group>"; };
+		070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		072ACCF3F862D279085D313B59B491A5 /* OSSXMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSXMLDictionary.m; path = AliyunOSSSDK/OSSXMLDictionary.m; sourceTree = "<group>"; };
+		079A5FF68EC3F1FF6B8099CC963784EE /* OSSClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSClient.m; path = AliyunOSSSDK/OSSClient.m; sourceTree = "<group>"; };
+		079E6EDB451C6FA2F07D903FCBB97CE2 /* AliyunOSSiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliyunOSSiOS.modulemap; sourceTree = "<group>"; };
+		08FE9CDB17294E950DD5EB87CCFB1CE1 /* OSSDeleteMultipleObjectsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSDeleteMultipleObjectsResult.m; path = AliyunOSSSDK/OSSDeleteMultipleObjectsResult.m; sourceTree = "<group>"; };
+		095BC6FB66D8C5DF918C7466E80270FF /* OSSRestoreObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSRestoreObjectRequest.m; path = AliyunOSSSDK/OSSRestoreObjectRequest.m; sourceTree = "<group>"; };
+		097B9278ACDC7B8594875F3B5E5D7799 /* SERequestManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SERequestManager.debug.xcconfig; sourceTree = "<group>"; };
+		0BE0437A2B330F004C81D512602D739C /* Pods-SERequestManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERequestManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BF3592C80A2A8F26A36B14CA7294103 /* OSSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSModel.m; path = AliyunOSSSDK/OSSModel.m; sourceTree = "<group>"; };
+		0C83AC009FA897CE1018C1D7C557495C /* AliyunOSSiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliyunOSSiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB8593B7836BEF4ECB6CCA7D6E6E234 /* OSSTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTaskCompletionSource.h; path = AliyunOSSSDK/OSSTask/OSSTaskCompletionSource.h; sourceTree = "<group>"; };
+		107B39621F1B46C2905DC0E75A182409 /* SERequestManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SERequestManager-umbrella.h"; sourceTree = "<group>"; };
+		11C1E718AE44022D91B0BAE3C037BC18 /* OSSLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSLog.m; path = AliyunOSSSDK/OSSLog.m; sourceTree = "<group>"; };
+		12704F7632637F9EF58EFA69026D8427 /* OSSCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCompat.m; path = AliyunOSSSDK/OSSCompat.m; sourceTree = "<group>"; };
+		1298773ACD06210C2825006E9C4E6E82 /* OSSNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSNetworking.h; path = AliyunOSSSDK/OSSNetworking.h; sourceTree = "<group>"; };
+		12FDBF6DFFA62C75DD31BF10C23CFF8D /* OSSGetBucketInfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetBucketInfoRequest.h; path = AliyunOSSSDK/OSSGetBucketInfoRequest.h; sourceTree = "<group>"; };
+		13A9AA577D500C0DCFB73082AD22D7DD /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		14A3FE4DA4CE007A926AAC6102122F2E /* AliyunOSSiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliyunOSSiOS.framework; path = AliyunOSSiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BF9C34B53BEDC41FCB923A3BE16EC8 /* OSSUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSUtil.m; path = AliyunOSSSDK/OSSUtil.m; sourceTree = "<group>"; };
+		15E830273D0900AB7A331DA124992314 /* OSSIPv6Adapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSIPv6Adapter.h; path = AliyunOSSSDK/OSSIPv6/OSSIPv6Adapter.h; sourceTree = "<group>"; };
+		16E35D60849F34D7BFD16EF0BF5E33A5 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		171293C192F6576F3B7C0B81D39B6ACA /* OSSResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSResult.h; path = AliyunOSSSDK/OSSResult.h; sourceTree = "<group>"; };
+		18357C9C2C9B3DCBA58B613CF6A7730F /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		19FDCBDCEF34CBF9BBC3A5044B9DF10E /* OSSCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationToken.h; path = AliyunOSSSDK/OSSTask/OSSCancellationToken.h; sourceTree = "<group>"; };
+		1A094FBA4558A871B46167D450E8E681 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		1C00ED021D1E466408E1170C080591F2 /* OSSXMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSXMLDictionary.h; path = AliyunOSSSDK/OSSXMLDictionary.h; sourceTree = "<group>"; };
+		1C5E480B78042A60318AC6B9BDA4E832 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		1E3DB73A974B5308F704B6AAF55B889C /* NSMutableDictionary+OSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+OSS.m"; path = "AliyunOSSSDK/NSMutableDictionary+OSS.m"; sourceTree = "<group>"; };
+		1E729264616B3F1A9500C9A01B148A85 /* AliyunOSSiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunOSSiOS-prefix.pch"; sourceTree = "<group>"; };
+		1EC6FBA96A60AD90B99020A967BB96E0 /* OSSGetSymlinkResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetSymlinkResult.h; path = AliyunOSSSDK/OSSGetSymlinkResult.h; sourceTree = "<group>"; };
+		20705EAF4EDA574E25B4CA5E14A41089 /* OSSBolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSBolts.h; path = AliyunOSSSDK/OSSTask/OSSBolts.h; sourceTree = "<group>"; };
+		20A28F509B410744BB8A9352E9C79385 /* OSSBolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSBolts.m; path = AliyunOSSSDK/OSSTask/OSSBolts.m; sourceTree = "<group>"; };
+		266CDA6CCF9330C07F7960626F70D6E8 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		269BA156374CB795D632A3FC622DA31E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		26A3AA16E4C1EE9323E748DF45C4E9F5 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		27B0AD816EBB4178BE52EF5346C4ED4A /* AliyunOSSiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunOSSiOS-dummy.m"; sourceTree = "<group>"; };
+		28AF273DD6DA40E6E39B1BA47F6F547A /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		2A280BFAB4DCC5A7A2EB484E0A019DD7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2C45CE0D7D03EA736C4AAEA938097E77 /* OSSHttpResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHttpResponseParser.m; path = AliyunOSSSDK/OSSHttpResponseParser.m; sourceTree = "<group>"; };
+		2CB9F97862B24357D137870A608A2155 /* OSSDeleteMultipleObjectsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSDeleteMultipleObjectsRequest.h; path = AliyunOSSSDK/OSSDeleteMultipleObjectsRequest.h; sourceTree = "<group>"; };
+		2D1366A924BBBCCB30529F3081C6B853 /* OSSCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationToken.m; path = AliyunOSSSDK/OSSTask/OSSCancellationToken.m; sourceTree = "<group>"; };
+		326E27AA72328B5EE2C778583164CBDE /* OSSCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCompat.h; path = AliyunOSSSDK/OSSCompat.h; sourceTree = "<group>"; };
+		331E10C8827722B9ADF7F758E2F4B7CC /* SERequestManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SERequestManager-Info.plist"; sourceTree = "<group>"; };
+		34BEFC973C9C599DA357515467759A36 /* OSSGetBucketInfoResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetBucketInfoResult.h; path = AliyunOSSSDK/OSSGetBucketInfoResult.h; sourceTree = "<group>"; };
+		35939E2274D11A4F898EBF5336517F72 /* Pods-SERequestManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERequestManager_Example-Info.plist"; sourceTree = "<group>"; };
+		369C273B04AA1D81D5A31AF683BAB131 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		38E3B980FE51013E775DFF7B5F0C9C83 /* Pods-SERequestManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERequestManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		396F626B4AB816E473C345B22FA98D63 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3BFAA9201C21C1F7BE3A7EA1A1D23CD5 /* SERequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SERequestManager.framework; path = SERequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8F326761E15CBE845AF92F0C5D6C73 /* OSSNSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSNSLogger.h; path = AliyunOSSSDK/OSSFileLog/OSSNSLogger.h; sourceTree = "<group>"; };
+		3D01949DA4BFE599F47A84AE205B80E4 /* OSSFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSFileLogger.m; path = AliyunOSSSDK/OSSFileLog/OSSFileLogger.m; sourceTree = "<group>"; };
+		40DF8E630F5C80EF7B8AE9FDCC47533B /* OSSGetSymlinkRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetSymlinkRequest.m; path = AliyunOSSSDK/OSSGetSymlinkRequest.m; sourceTree = "<group>"; };
+		414E58518B577202E081F7F4FF81E0C8 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		43E2CF18649FA2DA6760180325DEF902 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		45ADFDF6B9BA2D3B2C4928B4920EE645 /* OSSTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTask.m; path = AliyunOSSSDK/OSSTask/OSSTask.m; sourceTree = "<group>"; };
+		482D3E8476869BBAB870B8E37D010E24 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		48BA994EAA1A667ED68538C824551360 /* Pods-SERequestManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SERequestManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		498EC7D5A6D175B4E8AE955958101096 /* OSSIPv6Adapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSIPv6Adapter.m; path = AliyunOSSSDK/OSSIPv6/OSSIPv6Adapter.m; sourceTree = "<group>"; };
+		4A591BA01A3690CED545EAD0F0AE25F2 /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenRegistration.h; path = AliyunOSSSDK/OSSTask/OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		4AF0A2DF0F2AC7F7BD020CD1761DDB1F /* OSSPutSymlinkRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSPutSymlinkRequest.m; path = AliyunOSSSDK/OSSPutSymlinkRequest.m; sourceTree = "<group>"; };
+		4B986C3A51193EE6AE33050E7E2CF6C1 /* OSSGetBucketInfoRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetBucketInfoRequest.m; path = AliyunOSSSDK/OSSGetBucketInfoRequest.m; sourceTree = "<group>"; };
+		4D37D1F9C66B8F0AA32146BCE31CEC1B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		4E13E36C3B63043A87E26E9EFE93D6F3 /* OSSIPv6PrefixResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSIPv6PrefixResolver.h; path = AliyunOSSSDK/OSSIPv6/OSSIPv6PrefixResolver.h; sourceTree = "<group>"; };
+		4E45193340463179523D469B3C4AECA7 /* AnalyzeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalyzeResponse.swift; path = SERequestManager/Classes/AnalyzeResponse.swift; sourceTree = "<group>"; };
+		4E681DAFF9742A751340CC5AFA128A6F /* OSSNetworkingRequestDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNetworkingRequestDelegate.m; path = AliyunOSSSDK/OSSNetworkingRequestDelegate.m; sourceTree = "<group>"; };
+		4EF8C981581AE034EBE65DEB2FB1F443 /* Pods-SERequestManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SERequestManager_Example-dummy.m"; sourceTree = "<group>"; };
+		4F6BB3D5D146C5214B17E9BA49680C10 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		555DC75F6339BE42E33F217B4943445E /* OSSDeleteMultipleObjectsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSDeleteMultipleObjectsRequest.m; path = AliyunOSSSDK/OSSDeleteMultipleObjectsRequest.m; sourceTree = "<group>"; };
+		55A169C7C5A2C25C7DDD79282BE0C773 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		56856BF3D87719B27298E69F432F33CF /* OSSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSUtil.h; path = AliyunOSSSDK/OSSUtil.h; sourceTree = "<group>"; };
+		56C26536F240B2652C595D60A56F14A3 /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTaskCompletionSource.m; path = AliyunOSSSDK/OSSTask/OSSTaskCompletionSource.m; sourceTree = "<group>"; };
+		5789D2FB1B7E9E2858222B1BF2B923B5 /* NSMutableData+OSS_CRC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+OSS_CRC.h"; path = "AliyunOSSSDK/NSMutableData+OSS_CRC.h"; sourceTree = "<group>"; };
+		58CBA70B72C7F534E3861D53964FD167 /* SERequestManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SERequestManager.modulemap; sourceTree = "<group>"; };
+		58DE5A18E6347A37A8235152770280F0 /* SERequestManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SERequestManager.release.xcconfig; sourceTree = "<group>"; };
+		5D08519CEDB41C95BD06BED2A3D9D64E /* OSSNSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNSLogger.m; path = AliyunOSSSDK/OSSFileLog/OSSNSLogger.m; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9D136E4DDD4EAA8E19B10773DC3444 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		5E0247FAFBCD61EB2E3F6BCBBD522165 /* OSSGetSymlinkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetSymlinkRequest.h; path = AliyunOSSSDK/OSSGetSymlinkRequest.h; sourceTree = "<group>"; };
+		5E06BDE93C438F2BE7647CE7EBC2BAD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F5624C4090411E515B5EEA28D5D15CA /* SERequestManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SERequestManager-prefix.pch"; sourceTree = "<group>"; };
+		5FA2DF60B5AB9DC51C3020D1BA93C57D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		607210BD884DBA581D9C09E1F9D072F5 /* OSSReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSReachabilityManager.m; path = AliyunOSSSDK/OSSIPv6/OSSReachabilityManager.m; sourceTree = "<group>"; };
+		614E6FE1CF4E28E403B7802251BF6E6D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		61D46132192A0641AE0B2B808CD8EC59 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		626149C33E9ABE7B2C071B2E307E096C /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenRegistration.m; path = AliyunOSSSDK/OSSTask/OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		637FADF3199E28D071178F47B1820FBC /* OSSAllRequestNeededMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSAllRequestNeededMessage.m; path = AliyunOSSSDK/OSSAllRequestNeededMessage.m; sourceTree = "<group>"; };
+		65567B150BB207AC0CE9D427EA7A837F /* OSSConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSConstants.m; path = AliyunOSSSDK/OSSConstants.m; sourceTree = "<group>"; };
+		655770D8B8D99341C47EA9075FFD6E75 /* OSSConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSConstants.h; path = AliyunOSSSDK/OSSConstants.h; sourceTree = "<group>"; };
+		668788DFC5CB888022C17F44137F42F4 /* Pods-SERequestManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SERequestManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		67199C28FAA49522229261D46FD6DA50 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		676D7B5D5D14BD1C31C8334909CAB0CE /* Pods-SERequestManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SERequestManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		67D678AC05D8AF77BF271929E786F6B1 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		683E74C878D1201C3F36E47B58E6D3B1 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		685A54B7FD43F7BC664E602C292B0BCB /* aos_crc64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aos_crc64.c; path = AliyunOSSSDK/aos_crc64.c; sourceTree = "<group>"; };
+		6947B9795BF2C652D3C4FF167200C6DD /* OSSRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSRequest.h; path = AliyunOSSSDK/OSSRequest.h; sourceTree = "<group>"; };
+		6D094EA4262E40913FBD2CFB9BE56286 /* NSDate+OSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+OSS.m"; path = "AliyunOSSSDK/NSDate+OSS.m"; sourceTree = "<group>"; };
+		6FE64ABEB61873D05C89201F125D1AE1 /* OSSClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSClient.h; path = AliyunOSSSDK/OSSClient.h; sourceTree = "<group>"; };
+		7028974F944148D63B7709C70A3BE06D /* Pods-SERequestManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SERequestManager_Example.modulemap"; sourceTree = "<group>"; };
+		70410809C18B9791A2531931F782C4EC /* OSSPutSymlinkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSPutSymlinkRequest.h; path = AliyunOSSSDK/OSSPutSymlinkRequest.h; sourceTree = "<group>"; };
+		719684DB2C0925A0014A9DA4C2DD5A63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		73DA5221EB9C404A74391894DC421BD0 /* OSSPutSymlinkResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSPutSymlinkResult.h; path = AliyunOSSSDK/OSSPutSymlinkResult.h; sourceTree = "<group>"; };
+		74669C443D1808DF7A4C1E6A943F1445 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7532187BFF915B5662C89BD17EDB015B /* OSSExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSExecutor.h; path = AliyunOSSSDK/OSSTask/OSSExecutor.h; sourceTree = "<group>"; };
+		7590559B27C0C552E60178C5CF17ACDC /* OSSIPv6PrefixResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSIPv6PrefixResolver.m; path = AliyunOSSSDK/OSSIPv6/OSSIPv6PrefixResolver.m; sourceTree = "<group>"; };
+		77124852D098A35E8BC41B82A38F4825 /* OSSHttpdns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHttpdns.h; path = AliyunOSSSDK/OSSHttpdns.h; sourceTree = "<group>"; };
+		773C8B0FCDA60672CFBED0DD08FB0E28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78B5A55312DF919E2D06BFABB8926682 /* OSSDDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSDDLog.h; path = AliyunOSSSDK/OSSFileLog/OSSDDLog.h; sourceTree = "<group>"; };
+		795FB3174717AF99DAEBB79ABD048604 /* aos_crc64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aos_crc64.h; path = AliyunOSSSDK/aos_crc64.h; sourceTree = "<group>"; };
+		79B94FADCF2BDE3A720C48F522244305 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		7AB5B86FD2AD9A37EC0EDE7300970D34 /* OSSRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSRequest.m; path = AliyunOSSSDK/OSSRequest.m; sourceTree = "<group>"; };
+		7AD1B760C023B10427D658393F8EB165 /* AliyunOSSiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunOSSiOS.debug.xcconfig; sourceTree = "<group>"; };
+		7CFF99493C9404904643624C1F16205A /* OSSReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSReachability.m; path = AliyunOSSSDK/OSSFileLog/OSSReachability.m; sourceTree = "<group>"; };
+		7D356D5D1F133EFF52E083F54E8CA9EF /* SERequestManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SERequestManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		806FAF2CA713098B443ADC34646E36CB /* Pods-SERequestManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERequestManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		82489B0D7FE61C6BB267E18CA6AFF87B /* OSSCocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCocoaLumberjack.h; path = AliyunOSSSDK/OSSFileLog/OSSCocoaLumberjack.h; sourceTree = "<group>"; };
+		845131EE0DFEA8FEFC7C1D0F2E68E1D7 /* Pods_SERequestManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SERequestManager_Example.framework; path = "Pods-SERequestManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85958BC46A84E0C2F53341E26D6C487D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		879C5EA750F88E1D03EB1A4B35685D53 /* OSSExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSExecutor.m; path = AliyunOSSSDK/OSSTask/OSSExecutor.m; sourceTree = "<group>"; };
+		88B94BE8EA74489F82BE9C088DC6BD0D /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		8B216F607EE3730996D25018862DD74A /* Pods-SERequestManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SERequestManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D02CA3D198F79ADF07E660B6859C92F /* UploadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadManager.swift; path = SERequestManager/Classes/UploadManager.swift; sourceTree = "<group>"; };
+		8F9CCC9BB2E8AACC2E1DE2B77474DB9D /* NSMutableDictionary+OSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+OSS.h"; path = "AliyunOSSSDK/NSMutableDictionary+OSS.h"; sourceTree = "<group>"; };
+		912F0E159752E9C3035CE9579A31EB49 /* OSSReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSReachabilityManager.h; path = AliyunOSSSDK/OSSIPv6/OSSReachabilityManager.h; sourceTree = "<group>"; };
+		925DCC1FA51A673327B16B816CC2A5A5 /* OSSCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenSource.h; path = AliyunOSSSDK/OSSTask/OSSCancellationTokenSource.h; sourceTree = "<group>"; };
+		92F4121950883AE083D1C83473AAD047 /* AliyunOSSiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunOSSiOS-umbrella.h"; sourceTree = "<group>"; };
+		94E349F1913C1A0CC6D51FEC5C360729 /* OSSHttpdns.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHttpdns.m; path = AliyunOSSSDK/OSSHttpdns.m; sourceTree = "<group>"; };
+		94F26DA2ED3DCE37024F0A59052C81C4 /* Pods-SERequestManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERequestManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		964F891E8E3A414187AC4BF8FE240EB5 /* OSSPutSymlinkResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSPutSymlinkResult.m; path = AliyunOSSSDK/OSSPutSymlinkResult.m; sourceTree = "<group>"; };
+		96A6C87CA1CA1F294857782D04F20535 /* OSSAllRequestNeededMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSAllRequestNeededMessage.h; path = AliyunOSSSDK/OSSAllRequestNeededMessage.h; sourceTree = "<group>"; };
+		9810F12F6259401F966C31830EF6A35C /* OSSRestoreObjectRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSRestoreObjectRequest.h; path = AliyunOSSSDK/OSSRestoreObjectRequest.h; sourceTree = "<group>"; };
+		9B680497EED98157108F8F9673BCEC9E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		9BA16B99541CB416C569EB234C528DB1 /* Pods_SERequestManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SERequestManager_Tests.framework; path = "Pods-SERequestManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFACD90D4DF5374212B558C554A3F74 /* OSSModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSModel.h; path = AliyunOSSSDK/OSSModel.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AE929DA0EA103918785C363C8695D7 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		A2F93EFC7F7681E85D231EEB2F978D4A /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = SERequestManager/Classes/NetworkManager.swift; sourceTree = "<group>"; };
+		A4E3B4D3A16A776D0D98446F49668016 /* OSSDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSDefine.h; path = AliyunOSSSDK/OSSDefine.h; sourceTree = "<group>"; };
+		A56777AEB0B5A819350044624C157B5C /* OSSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSService.h; path = AliyunOSSSDK/OSSService.h; sourceTree = "<group>"; };
+		A795836D93B09494778A2C35E1B8A573 /* OSSDeleteMultipleObjectsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSDeleteMultipleObjectsResult.h; path = AliyunOSSSDK/OSSDeleteMultipleObjectsResult.h; sourceTree = "<group>"; };
+		ABE15704A38F7242FB3CFBB921CF486C /* NSDate+OSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+OSS.h"; path = "AliyunOSSSDK/NSDate+OSS.h"; sourceTree = "<group>"; };
+		AD98FAFD22185A2C2B9572D6C1B7EA3A /* Pods-SERequestManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERequestManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B170C9F695C0C65F15A7C2E7ABA499F7 /* OSSNetworkingRequestDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSNetworkingRequestDelegate.h; path = AliyunOSSSDK/OSSNetworkingRequestDelegate.h; sourceTree = "<group>"; };
+		B36D08840E78F08E24104658C4DF8AEC /* AliyunOSSiOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliyunOSSiOS.h; path = "Supporting Files/AliyunOSSiOS.h"; sourceTree = "<group>"; };
+		B53A441530A422080089BCF2AE25171F /* OSSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSLog.h; path = AliyunOSSSDK/OSSLog.h; sourceTree = "<group>"; };
+		B643066540012D73E4AFBF4B9BC6B4AA /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		BC3A1CDB2D85B76E50C0F2EC0D4F0BC7 /* CredentialModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialModel.swift; path = SERequestManager/Classes/CredentialModel.swift; sourceTree = "<group>"; };
+		BD7D3308D98F0887F10D748645CF4ED7 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		BEC831BA885754C35C5C43AA29599EF6 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		C0E81667B5B80D524D02D05373099E9B /* Pods-SERequestManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERequestManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C26FEDAE29A2E8F372CBD244304D581D /* NSMutableData+OSS_CRC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+OSS_CRC.m"; path = "AliyunOSSSDK/NSMutableData+OSS_CRC.m"; sourceTree = "<group>"; };
+		C36C6E464781D01006D9750BFDD1D2C0 /* OSSInputStreamHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSInputStreamHelper.h; path = AliyunOSSSDK/OSSInputStreamHelper.h; sourceTree = "<group>"; };
+		C481CCCBC78B88984E44687D81766786 /* OSSURLRequestRetryHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSURLRequestRetryHandler.m; path = AliyunOSSSDK/OSSURLRequestRetryHandler.m; sourceTree = "<group>"; };
+		C500385BD5A7D61091C0B566643C9A77 /* Pods-SERequestManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SERequestManager_Tests.modulemap"; sourceTree = "<group>"; };
+		CBAE5F81805025A9A838576791A6AC9D /* OSSGetObjectACLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetObjectACLRequest.h; path = AliyunOSSSDK/OSSGetObjectACLRequest.h; sourceTree = "<group>"; };
+		CCA8B143E342F94A61E969976D5C5444 /* Pods-SERequestManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SERequestManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CD97D6EB4372A9C47292D9D1BDD7E6BB /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		D1C7E709FCC53EDA7D41DF6410887EBC /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D1EFA824100AFBF1DADF31EBD2EF7F39 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		D368022BAF0ACC4370CE232F06DD9DB9 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		D756618A5B86A2DDC2909A6938255ED0 /* OSSRestoreObjectResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSRestoreObjectResult.h; path = AliyunOSSSDK/OSSRestoreObjectResult.h; sourceTree = "<group>"; };
+		D82FED227A32B96A3B401A02CA1E9116 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		DAFEAA4F404DBBB5A424DDD1E37F14D7 /* OSSGetObjectACLResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetObjectACLResult.m; path = AliyunOSSSDK/OSSGetObjectACLResult.m; sourceTree = "<group>"; };
+		E05B2362F185D50A0E3D7D85EBB9362D /* OSSDDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSDDLog.m; path = AliyunOSSSDK/OSSFileLog/OSSDDLog.m; sourceTree = "<group>"; };
+		E10FFF587BA7CC7A4588034E820190E3 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = SERequestManager/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
+		E2BBE6D34CCAB18D1F832773610A2266 /* OSSCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenSource.m; path = AliyunOSSSDK/OSSTask/OSSCancellationTokenSource.m; sourceTree = "<group>"; };
+		E4D8F4595A51F0B05858AF711B3C3D8F /* OSSURLRequestRetryHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSURLRequestRetryHandler.h; path = AliyunOSSSDK/OSSURLRequestRetryHandler.h; sourceTree = "<group>"; };
+		E964E8116527A59FF8894B3400315274 /* AliyunOSSiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunOSSiOS.release.xcconfig; sourceTree = "<group>"; };
+		EAAECDE3A91B109FC30882C32907AD77 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		EAD29D0FC8CBDFF0F16BB6BBAD2CFF8E /* Pods-SERequestManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SERequestManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		EFAE03F8F3D92AF096D2DCBC741D2719 /* OSSGetObjectACLResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetObjectACLResult.h; path = AliyunOSSSDK/OSSGetObjectACLResult.h; sourceTree = "<group>"; };
+		F0862491F01D63FFDED64EB24BC34C07 /* OSSReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSReachability.h; path = AliyunOSSSDK/OSSFileLog/OSSReachability.h; sourceTree = "<group>"; };
+		F32A99293CEFA8337E9CC0EB260EEB5E /* OSSLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSLogMacros.h; path = AliyunOSSSDK/OSSFileLog/OSSLogMacros.h; sourceTree = "<group>"; };
+		F36FCEB3CFE57EA0FA68D2E5593E7D37 /* SERequestManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SERequestManager-dummy.m"; sourceTree = "<group>"; };
+		F424978885E18CF30C9FDB0A3A8ACB8C /* OSSHttpResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHttpResponseParser.h; path = AliyunOSSSDK/OSSHttpResponseParser.h; sourceTree = "<group>"; };
+		F4D468DA165DE0E6AA5E67AFDAE51E97 /* Pods-SERequestManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERequestManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F5BBA86D52F99CB63A0617A530513F43 /* OSSInputStreamHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSInputStreamHelper.m; path = AliyunOSSSDK/OSSInputStreamHelper.m; sourceTree = "<group>"; };
+		F6DD882955F35EF8538B43A2021CF674 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F72CC3882EC8E72B8F58AE6746524737 /* AliyunOSSiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AliyunOSSiOS-Info.plist"; sourceTree = "<group>"; };
+		F93D73F1F1B4C640263D327982E20915 /* OSSGetBucketInfoResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetBucketInfoResult.m; path = AliyunOSSSDK/OSSGetBucketInfoResult.m; sourceTree = "<group>"; };
+		F96ABF70C566D463E75AA6D21AD82838 /* OSSGetObjectACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetObjectACLRequest.m; path = AliyunOSSSDK/OSSGetObjectACLRequest.m; sourceTree = "<group>"; };
+		FA08295144B9F288CB182410DDB316E6 /* OSSFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSFileLogger.h; path = AliyunOSSSDK/OSSFileLog/OSSFileLogger.h; sourceTree = "<group>"; };
+		FA710B90867426B3A9CAADC34E661D88 /* OSSNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNetworking.m; path = AliyunOSSSDK/OSSNetworking.m; sourceTree = "<group>"; };
+		FC1035041CC7F32A5E79C4AD8A72932D /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		FDF86DF322B23FFA5F22F6DF714B8F08 /* OSSResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSResult.m; path = AliyunOSSSDK/OSSResult.m; sourceTree = "<group>"; };
+		FF4A33FCE30E9066A6E51B4A90C427A7 /* OSSRestoreObjectResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSRestoreObjectResult.m; path = AliyunOSSSDK/OSSRestoreObjectResult.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE5F655BC2B6E1833A21D8960F20B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625CA10FE1EB01C67C8C151E6FBE0EB9 /* CoreTelephony.framework in Frameworks */,
+				18227B51FD69A194F5EB04C0ECC5D761 /* Foundation.framework in Frameworks */,
+				F6ED823C7CBD88E002E0848F12F6BAB9 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C300635F20FF7515C2614B2BE0CD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C360F0122BE9BCBC369E5EB0AA51C45E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822591616D51BF9827A9BA708C13166D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A91B4EA909BC0A487D54A602464CC54 /* Alamofire.framework in Frameworks */,
+				687212392DC3BF1D379684CB56F79861 /* AliyunOSSiOS.framework in Frameworks */,
+				1E3923D325A67A4FB45820E6D4042FF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */,
+				476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B122C51CE35F99AAD02E19698FBB7083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753D265C10B7B95707DD2C1CFE5DA3A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0D0B84C8A8CA94202E54CB7619F763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				14A3FE4DA4CE007A926AAC6102122F2E /* AliyunOSSiOS.framework */,
+				845131EE0DFEA8FEFC7C1D0F2E68E1D7 /* Pods_SERequestManager_Example.framework */,
+				9BA16B99541CB416C569EB234C528DB1 /* Pods_SERequestManager_Tests.framework */,
+				3BFAA9201C21C1F7BE3A7EA1A1D23CD5 /* SERequestManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1491E420B422D2E0B851D5A676858F00 /* Pods-SERequestManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C500385BD5A7D61091C0B566643C9A77 /* Pods-SERequestManager_Tests.modulemap */,
+				48BA994EAA1A667ED68538C824551360 /* Pods-SERequestManager_Tests-acknowledgements.markdown */,
+				AD98FAFD22185A2C2B9572D6C1B7EA3A /* Pods-SERequestManager_Tests-acknowledgements.plist */,
+				668788DFC5CB888022C17F44137F42F4 /* Pods-SERequestManager_Tests-dummy.m */,
+				806FAF2CA713098B443ADC34646E36CB /* Pods-SERequestManager_Tests-Info.plist */,
+				CCA8B143E342F94A61E969976D5C5444 /* Pods-SERequestManager_Tests-umbrella.h */,
+				94F26DA2ED3DCE37024F0A59052C81C4 /* Pods-SERequestManager_Tests.debug.xcconfig */,
+				0BE0437A2B330F004C81D512602D739C /* Pods-SERequestManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-SERequestManager_Tests";
+			path = "Target Support Files/Pods-SERequestManager_Tests";
+			sourceTree = "<group>";
+		};
+		14BB30E44CC8A93453D6E8D318B7D930 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				719684DB2C0925A0014A9DA4C2DD5A63 /* CFNetwork.framework */,
+				F6DD882955F35EF8538B43A2021CF674 /* CoreTelephony.framework */,
+				070CF65763AE668300295A8FDFCC0257 /* Foundation.framework */,
+				614E6FE1CF4E28E403B7802251BF6E6D /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1F1F1A4DF9A54B342EBA19FED818C43F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39FD4C71FB2D2168F59AC98E5BD874FF /* Alamofire */,
+				213263E1D3A5DA5CA95C49070405CBFE /* AliyunOSSiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		213263E1D3A5DA5CA95C49070405CBFE /* AliyunOSSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B36D08840E78F08E24104658C4DF8AEC /* AliyunOSSiOS.h */,
+				685A54B7FD43F7BC664E602C292B0BCB /* aos_crc64.c */,
+				795FB3174717AF99DAEBB79ABD048604 /* aos_crc64.h */,
+				ABE15704A38F7242FB3CFBB921CF486C /* NSDate+OSS.h */,
+				6D094EA4262E40913FBD2CFB9BE56286 /* NSDate+OSS.m */,
+				5789D2FB1B7E9E2858222B1BF2B923B5 /* NSMutableData+OSS_CRC.h */,
+				C26FEDAE29A2E8F372CBD244304D581D /* NSMutableData+OSS_CRC.m */,
+				8F9CCC9BB2E8AACC2E1DE2B77474DB9D /* NSMutableDictionary+OSS.h */,
+				1E3DB73A974B5308F704B6AAF55B889C /* NSMutableDictionary+OSS.m */,
+				96A6C87CA1CA1F294857782D04F20535 /* OSSAllRequestNeededMessage.h */,
+				637FADF3199E28D071178F47B1820FBC /* OSSAllRequestNeededMessage.m */,
+				20705EAF4EDA574E25B4CA5E14A41089 /* OSSBolts.h */,
+				20A28F509B410744BB8A9352E9C79385 /* OSSBolts.m */,
+				19FDCBDCEF34CBF9BBC3A5044B9DF10E /* OSSCancellationToken.h */,
+				2D1366A924BBBCCB30529F3081C6B853 /* OSSCancellationToken.m */,
+				4A591BA01A3690CED545EAD0F0AE25F2 /* OSSCancellationTokenRegistration.h */,
+				626149C33E9ABE7B2C071B2E307E096C /* OSSCancellationTokenRegistration.m */,
+				925DCC1FA51A673327B16B816CC2A5A5 /* OSSCancellationTokenSource.h */,
+				E2BBE6D34CCAB18D1F832773610A2266 /* OSSCancellationTokenSource.m */,
+				6FE64ABEB61873D05C89201F125D1AE1 /* OSSClient.h */,
+				079A5FF68EC3F1FF6B8099CC963784EE /* OSSClient.m */,
+				82489B0D7FE61C6BB267E18CA6AFF87B /* OSSCocoaLumberjack.h */,
+				326E27AA72328B5EE2C778583164CBDE /* OSSCompat.h */,
+				12704F7632637F9EF58EFA69026D8427 /* OSSCompat.m */,
+				655770D8B8D99341C47EA9075FFD6E75 /* OSSConstants.h */,
+				65567B150BB207AC0CE9D427EA7A837F /* OSSConstants.m */,
+				78B5A55312DF919E2D06BFABB8926682 /* OSSDDLog.h */,
+				E05B2362F185D50A0E3D7D85EBB9362D /* OSSDDLog.m */,
+				A4E3B4D3A16A776D0D98446F49668016 /* OSSDefine.h */,
+				2CB9F97862B24357D137870A608A2155 /* OSSDeleteMultipleObjectsRequest.h */,
+				555DC75F6339BE42E33F217B4943445E /* OSSDeleteMultipleObjectsRequest.m */,
+				A795836D93B09494778A2C35E1B8A573 /* OSSDeleteMultipleObjectsResult.h */,
+				08FE9CDB17294E950DD5EB87CCFB1CE1 /* OSSDeleteMultipleObjectsResult.m */,
+				7532187BFF915B5662C89BD17EDB015B /* OSSExecutor.h */,
+				879C5EA750F88E1D03EB1A4B35685D53 /* OSSExecutor.m */,
+				FA08295144B9F288CB182410DDB316E6 /* OSSFileLogger.h */,
+				3D01949DA4BFE599F47A84AE205B80E4 /* OSSFileLogger.m */,
+				12FDBF6DFFA62C75DD31BF10C23CFF8D /* OSSGetBucketInfoRequest.h */,
+				4B986C3A51193EE6AE33050E7E2CF6C1 /* OSSGetBucketInfoRequest.m */,
+				34BEFC973C9C599DA357515467759A36 /* OSSGetBucketInfoResult.h */,
+				F93D73F1F1B4C640263D327982E20915 /* OSSGetBucketInfoResult.m */,
+				CBAE5F81805025A9A838576791A6AC9D /* OSSGetObjectACLRequest.h */,
+				F96ABF70C566D463E75AA6D21AD82838 /* OSSGetObjectACLRequest.m */,
+				EFAE03F8F3D92AF096D2DCBC741D2719 /* OSSGetObjectACLResult.h */,
+				DAFEAA4F404DBBB5A424DDD1E37F14D7 /* OSSGetObjectACLResult.m */,
+				5E0247FAFBCD61EB2E3F6BCBBD522165 /* OSSGetSymlinkRequest.h */,
+				40DF8E630F5C80EF7B8AE9FDCC47533B /* OSSGetSymlinkRequest.m */,
+				1EC6FBA96A60AD90B99020A967BB96E0 /* OSSGetSymlinkResult.h */,
+				0509E9315C72D211C813DAF4FEF58A0F /* OSSGetSymlinkResult.m */,
+				77124852D098A35E8BC41B82A38F4825 /* OSSHttpdns.h */,
+				94E349F1913C1A0CC6D51FEC5C360729 /* OSSHttpdns.m */,
+				F424978885E18CF30C9FDB0A3A8ACB8C /* OSSHttpResponseParser.h */,
+				2C45CE0D7D03EA736C4AAEA938097E77 /* OSSHttpResponseParser.m */,
+				C36C6E464781D01006D9750BFDD1D2C0 /* OSSInputStreamHelper.h */,
+				F5BBA86D52F99CB63A0617A530513F43 /* OSSInputStreamHelper.m */,
+				15E830273D0900AB7A331DA124992314 /* OSSIPv6Adapter.h */,
+				498EC7D5A6D175B4E8AE955958101096 /* OSSIPv6Adapter.m */,
+				4E13E36C3B63043A87E26E9EFE93D6F3 /* OSSIPv6PrefixResolver.h */,
+				7590559B27C0C552E60178C5CF17ACDC /* OSSIPv6PrefixResolver.m */,
+				B53A441530A422080089BCF2AE25171F /* OSSLog.h */,
+				11C1E718AE44022D91B0BAE3C037BC18 /* OSSLog.m */,
+				F32A99293CEFA8337E9CC0EB260EEB5E /* OSSLogMacros.h */,
+				9BFACD90D4DF5374212B558C554A3F74 /* OSSModel.h */,
+				0BF3592C80A2A8F26A36B14CA7294103 /* OSSModel.m */,
+				1298773ACD06210C2825006E9C4E6E82 /* OSSNetworking.h */,
+				FA710B90867426B3A9CAADC34E661D88 /* OSSNetworking.m */,
+				B170C9F695C0C65F15A7C2E7ABA499F7 /* OSSNetworkingRequestDelegate.h */,
+				4E681DAFF9742A751340CC5AFA128A6F /* OSSNetworkingRequestDelegate.m */,
+				3C8F326761E15CBE845AF92F0C5D6C73 /* OSSNSLogger.h */,
+				5D08519CEDB41C95BD06BED2A3D9D64E /* OSSNSLogger.m */,
+				70410809C18B9791A2531931F782C4EC /* OSSPutSymlinkRequest.h */,
+				4AF0A2DF0F2AC7F7BD020CD1761DDB1F /* OSSPutSymlinkRequest.m */,
+				73DA5221EB9C404A74391894DC421BD0 /* OSSPutSymlinkResult.h */,
+				964F891E8E3A414187AC4BF8FE240EB5 /* OSSPutSymlinkResult.m */,
+				F0862491F01D63FFDED64EB24BC34C07 /* OSSReachability.h */,
+				7CFF99493C9404904643624C1F16205A /* OSSReachability.m */,
+				912F0E159752E9C3035CE9579A31EB49 /* OSSReachabilityManager.h */,
+				607210BD884DBA581D9C09E1F9D072F5 /* OSSReachabilityManager.m */,
+				6947B9795BF2C652D3C4FF167200C6DD /* OSSRequest.h */,
+				7AB5B86FD2AD9A37EC0EDE7300970D34 /* OSSRequest.m */,
+				9810F12F6259401F966C31830EF6A35C /* OSSRestoreObjectRequest.h */,
+				095BC6FB66D8C5DF918C7466E80270FF /* OSSRestoreObjectRequest.m */,
+				D756618A5B86A2DDC2909A6938255ED0 /* OSSRestoreObjectResult.h */,
+				FF4A33FCE30E9066A6E51B4A90C427A7 /* OSSRestoreObjectResult.m */,
+				171293C192F6576F3B7C0B81D39B6ACA /* OSSResult.h */,
+				FDF86DF322B23FFA5F22F6DF714B8F08 /* OSSResult.m */,
+				A56777AEB0B5A819350044624C157B5C /* OSSService.h */,
+				0462A695BC8CA950195B72906D5D7DEE /* OSSTask.h */,
+				45ADFDF6B9BA2D3B2C4928B4920EE645 /* OSSTask.m */,
+				0CB8593B7836BEF4ECB6CCA7D6E6E234 /* OSSTaskCompletionSource.h */,
+				56C26536F240B2652C595D60A56F14A3 /* OSSTaskCompletionSource.m */,
+				E4D8F4595A51F0B05858AF711B3C3D8F /* OSSURLRequestRetryHandler.h */,
+				C481CCCBC78B88984E44687D81766786 /* OSSURLRequestRetryHandler.m */,
+				56856BF3D87719B27298E69F432F33CF /* OSSUtil.h */,
+				14BF9C34B53BEDC41FCB923A3BE16EC8 /* OSSUtil.m */,
+				1C00ED021D1E466408E1170C080591F2 /* OSSXMLDictionary.h */,
+				072ACCF3F862D279085D313B59B491A5 /* OSSXMLDictionary.m */,
+				3164F3132EB19A5FDE6816D33A11A848 /* Support Files */,
+			);
+			name = AliyunOSSiOS;
+			path = AliyunOSSiOS;
+			sourceTree = "<group>";
+		};
+		3164F3132EB19A5FDE6816D33A11A848 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				079E6EDB451C6FA2F07D903FCBB97CE2 /* AliyunOSSiOS.modulemap */,
+				27B0AD816EBB4178BE52EF5346C4ED4A /* AliyunOSSiOS-dummy.m */,
+				F72CC3882EC8E72B8F58AE6746524737 /* AliyunOSSiOS-Info.plist */,
+				1E729264616B3F1A9500C9A01B148A85 /* AliyunOSSiOS-prefix.pch */,
+				92F4121950883AE083D1C83473AAD047 /* AliyunOSSiOS-umbrella.h */,
+				7AD1B760C023B10427D658393F8EB165 /* AliyunOSSiOS.debug.xcconfig */,
+				E964E8116527A59FF8894B3400315274 /* AliyunOSSiOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliyunOSSiOS";
+			sourceTree = "<group>";
+		};
+		3753C2449B201B799B813CAB56737F57 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E06BDE93C438F2BE7647CE7EBC2BAD5 /* LICENSE */,
+				773C8B0FCDA60672CFBED0DD08FB0E28 /* README.md */,
+				7D356D5D1F133EFF52E083F54E8CA9EF /* SERequestManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		39FD4C71FB2D2168F59AC98E5BD874FF /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				55A169C7C5A2C25C7DDD79282BE0C773 /* AFError.swift */,
+				61D46132192A0641AE0B2B808CD8EC59 /* Alamofire.swift */,
+				414E58518B577202E081F7F4FF81E0C8 /* AlamofireExtended.swift */,
+				D82FED227A32B96A3B401A02CA1E9116 /* AuthenticationInterceptor.swift */,
+				13A9AA577D500C0DCFB73082AD22D7DD /* CachedResponseHandler.swift */,
+				5D9D136E4DDD4EAA8E19B10773DC3444 /* Combine.swift */,
+				00D73F9ED299C63486FE31DDF95267E3 /* DispatchQueue+Alamofire.swift */,
+				683E74C878D1201C3F36E47B58E6D3B1 /* EventMonitor.swift */,
+				482D3E8476869BBAB870B8E37D010E24 /* HTTPHeaders.swift */,
+				26A3AA16E4C1EE9323E748DF45C4E9F5 /* HTTPMethod.swift */,
+				396F626B4AB816E473C345B22FA98D63 /* MultipartFormData.swift */,
+				1A094FBA4558A871B46167D450E8E681 /* MultipartUpload.swift */,
+				85958BC46A84E0C2F53341E26D6C487D /* NetworkReachabilityManager.swift */,
+				5FA2DF60B5AB9DC51C3020D1BA93C57D /* Notifications.swift */,
+				BEC831BA885754C35C5C43AA29599EF6 /* OperationQueue+Alamofire.swift */,
+				28AF273DD6DA40E6E39B1BA47F6F547A /* ParameterEncoder.swift */,
+				2A280BFAB4DCC5A7A2EB484E0A019DD7 /* ParameterEncoding.swift */,
+				D368022BAF0ACC4370CE232F06DD9DB9 /* Protected.swift */,
+				0394B7D67DE0B403E299E845FF683677 /* RedirectHandler.swift */,
+				67199C28FAA49522229261D46FD6DA50 /* Request.swift */,
+				79B94FADCF2BDE3A720C48F522244305 /* RequestInterceptor.swift */,
+				16E35D60849F34D7BFD16EF0BF5E33A5 /* RequestTaskMap.swift */,
+				B643066540012D73E4AFBF4B9BC6B4AA /* Response.swift */,
+				269BA156374CB795D632A3FC622DA31E /* ResponseSerialization.swift */,
+				369C273B04AA1D81D5A31AF683BAB131 /* Result+Alamofire.swift */,
+				18357C9C2C9B3DCBA58B613CF6A7730F /* RetryPolicy.swift */,
+				1C5E480B78042A60318AC6B9BDA4E832 /* ServerTrustEvaluation.swift */,
+				A1AE929DA0EA103918785C363C8695D7 /* Session.swift */,
+				4D37D1F9C66B8F0AA32146BCE31CEC1B /* SessionDelegate.swift */,
+				88B94BE8EA74489F82BE9C088DC6BD0D /* StringEncoding+Alamofire.swift */,
+				67D678AC05D8AF77BF271929E786F6B1 /* URLConvertible+URLRequestConvertible.swift */,
+				43E2CF18649FA2DA6760180325DEF902 /* URLEncodedFormEncoder.swift */,
+				FC1035041CC7F32A5E79C4AD8A72932D /* URLRequest+Alamofire.swift */,
+				D1EFA824100AFBF1DADF31EBD2EF7F39 /* URLSessionConfiguration+Alamofire.swift */,
+				9B680497EED98157108F8F9673BCEC9E /* Validation.swift */,
+				AAA0D4306A39E7DBEB27C9129345CDA2 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		605B90CF9BADEFB1D17F1324F80B7171 /* SERequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				4E45193340463179523D469B3C4AECA7 /* AnalyzeResponse.swift */,
+				BC3A1CDB2D85B76E50C0F2EC0D4F0BC7 /* CredentialModel.swift */,
+				A2F93EFC7F7681E85D231EEB2F978D4A /* NetworkManager.swift */,
+				E10FFF587BA7CC7A4588034E820190E3 /* UIImageExtension.swift */,
+				8D02CA3D198F79ADF07E660B6859C92F /* UploadManager.swift */,
+				3753C2449B201B799B813CAB56737F57 /* Pod */,
+				C8FE0ED48E95D26013B0116B98FBA323 /* Support Files */,
+			);
+			name = SERequestManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A2BF90F7A2230B1CD046535697BBDAAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCFB2F5AEE3D0565C3DCCC98D9C066 /* Pods-SERequestManager_Example */,
+				1491E420B422D2E0B851D5A676858F00 /* Pods-SERequestManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A38FBB2BA5FAD8B76E4D73AA91593D85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74669C443D1808DF7A4C1E6A943F1445 /* Alamofire.framework */,
+				0C83AC009FA897CE1018C1D7C557495C /* AliyunOSSiOS.framework */,
+				14BB30E44CC8A93453D6E8D318B7D930 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAA0D4306A39E7DBEB27C9129345CDA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0209515BBE0A6C341B1336186D28324C /* Alamofire.modulemap */,
+				EAAECDE3A91B109FC30882C32907AD77 /* Alamofire-dummy.m */,
+				BD7D3308D98F0887F10D748645CF4ED7 /* Alamofire-Info.plist */,
+				4F6BB3D5D146C5214B17E9BA49680C10 /* Alamofire-prefix.pch */,
+				D1C7E709FCC53EDA7D41DF6410887EBC /* Alamofire-umbrella.h */,
+				CD97D6EB4372A9C47292D9D1BDD7E6BB /* Alamofire.debug.xcconfig */,
+				266CDA6CCF9330C07F7960626F70D6E8 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		C8FE0ED48E95D26013B0116B98FBA323 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58CBA70B72C7F534E3861D53964FD167 /* SERequestManager.modulemap */,
+				F36FCEB3CFE57EA0FA68D2E5593E7D37 /* SERequestManager-dummy.m */,
+				331E10C8827722B9ADF7F758E2F4B7CC /* SERequestManager-Info.plist */,
+				5F5624C4090411E515B5EEA28D5D15CA /* SERequestManager-prefix.pch */,
+				107B39621F1B46C2905DC0E75A182409 /* SERequestManager-umbrella.h */,
+				097B9278ACDC7B8594875F3B5E5D7799 /* SERequestManager.debug.xcconfig */,
+				58DE5A18E6347A37A8235152770280F0 /* SERequestManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SERequestManager";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF51D4B4DB6C60AD46FE24E176E48AA5 /* Development Pods */,
+				A38FBB2BA5FAD8B76E4D73AA91593D85 /* Frameworks */,
+				1F1F1A4DF9A54B342EBA19FED818C43F /* Pods */,
+				0A0D0B84C8A8CA94202E54CB7619F763 /* Products */,
+				A2BF90F7A2230B1CD046535697BBDAAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF51D4B4DB6C60AD46FE24E176E48AA5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605B90CF9BADEFB1D17F1324F80B7171 /* SERequestManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E3FCFB2F5AEE3D0565C3DCCC98D9C066 /* Pods-SERequestManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7028974F944148D63B7709C70A3BE06D /* Pods-SERequestManager_Example.modulemap */,
+				8B216F607EE3730996D25018862DD74A /* Pods-SERequestManager_Example-acknowledgements.markdown */,
+				C0E81667B5B80D524D02D05373099E9B /* Pods-SERequestManager_Example-acknowledgements.plist */,
+				4EF8C981581AE034EBE65DEB2FB1F443 /* Pods-SERequestManager_Example-dummy.m */,
+				676D7B5D5D14BD1C31C8334909CAB0CE /* Pods-SERequestManager_Example-frameworks.sh */,
+				35939E2274D11A4F898EBF5336517F72 /* Pods-SERequestManager_Example-Info.plist */,
+				EAD29D0FC8CBDFF0F16BB6BBAD2CFF8E /* Pods-SERequestManager_Example-umbrella.h */,
+				F4D468DA165DE0E6AA5E67AFDAE51E97 /* Pods-SERequestManager_Example.debug.xcconfig */,
+				38E3B980FE51013E775DFF7B5F0C9C83 /* Pods-SERequestManager_Example.release.xcconfig */,
+			);
+			name = "Pods-SERequestManager_Example";
+			path = "Target Support Files/Pods-SERequestManager_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		283FB531A1BE081B4C001819F95B5F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6447915C4615EE346AC9BD5CDC39F3 /* SERequestManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406046CE029534242B9FD7AA8A431CD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB32F0A4F42036BFD1BCE4BB7199B2C /* AliyunOSSiOS-umbrella.h in Headers */,
+				F7731CFF79A480E60F32E19B79A7D278 /* AliyunOSSiOS.h in Headers */,
+				740FBF8C565D8CD05AD901B47ED49B1A /* aos_crc64.h in Headers */,
+				522192B08337C3360756D2A4B1557190 /* NSDate+OSS.h in Headers */,
+				97641C473F8781BA5A33C62D3F80103B /* NSMutableData+OSS_CRC.h in Headers */,
+				B821B0D647ECF9CF4096CEA1F573C8CF /* NSMutableDictionary+OSS.h in Headers */,
+				96D148663C1A0DFFFBE52E2EE3831A68 /* OSSAllRequestNeededMessage.h in Headers */,
+				A3035733D2C73AFC1B023D6C86AD5D85 /* OSSBolts.h in Headers */,
+				5A993B48332EAA550BBCEBFE99F1C7B5 /* OSSCancellationToken.h in Headers */,
+				89A32AB9D726C64AB8B1142AA84DF70C /* OSSCancellationTokenRegistration.h in Headers */,
+				7C763E74BADC2BA59C9C7105A80416FC /* OSSCancellationTokenSource.h in Headers */,
+				939D1685288AD7430265C65AB8CE4558 /* OSSClient.h in Headers */,
+				732581AFF5E942902154A0B19D462214 /* OSSCocoaLumberjack.h in Headers */,
+				F266104AABC53D6D48F44D1772CAA20F /* OSSCompat.h in Headers */,
+				4074985C0A63424F5EA9BD8CB7B64EB4 /* OSSConstants.h in Headers */,
+				5FE6274DC40B5875D8445376CF1502AE /* OSSDDLog.h in Headers */,
+				04DD99368B182E3E9050A77CB2BA3DE9 /* OSSDefine.h in Headers */,
+				D350178265B051193AFF2445D3567312 /* OSSDeleteMultipleObjectsRequest.h in Headers */,
+				ACDDC842F261B5810D854B859C8212C4 /* OSSDeleteMultipleObjectsResult.h in Headers */,
+				3F973E01260157516BCDAB44292FA8C2 /* OSSExecutor.h in Headers */,
+				B13C6943BCC29959546356B99E596AC1 /* OSSFileLogger.h in Headers */,
+				2F590E1C670F7EB812CE6EE7CD4F9756 /* OSSGetBucketInfoRequest.h in Headers */,
+				081E4C3465E0F9B4F5F0036A3E460D01 /* OSSGetBucketInfoResult.h in Headers */,
+				7DF675A414246D772B7D6FB5E080979B /* OSSGetObjectACLRequest.h in Headers */,
+				E271696B8E52D0FB1A873482877BCB6C /* OSSGetObjectACLResult.h in Headers */,
+				5406DAE268E7F183496E52B132CD910B /* OSSGetSymlinkRequest.h in Headers */,
+				30C2036FB8E47A97535018E1C0C4B645 /* OSSGetSymlinkResult.h in Headers */,
+				A8A2BAA48E12F269AAC7CFF94B9A8D06 /* OSSHttpdns.h in Headers */,
+				CC44C72CADC3ACB57B2472ECDACB4664 /* OSSHttpResponseParser.h in Headers */,
+				888D1D2C88331A10D3F091A449E18BCD /* OSSInputStreamHelper.h in Headers */,
+				0077CF834F9D5117F60FCBD33EAE7C65 /* OSSIPv6Adapter.h in Headers */,
+				B2889E693235333D6288F979197BF928 /* OSSIPv6PrefixResolver.h in Headers */,
+				1CE3BA6001C6B0E74869AE8CDFBCF62D /* OSSLog.h in Headers */,
+				3F70889C219316231C46B9E0C91D18E0 /* OSSLogMacros.h in Headers */,
+				B99B701A96A85B144FB6E6388E446FAF /* OSSModel.h in Headers */,
+				B44A73C30105CE2F9AF4895F788D92EC /* OSSNetworking.h in Headers */,
+				4744FA49B307034B885AD78F6B943D60 /* OSSNetworkingRequestDelegate.h in Headers */,
+				D286389FA98A794602C3B9B55A37E640 /* OSSNSLogger.h in Headers */,
+				86899E5FF1FA400890CDAFB24B938929 /* OSSPutSymlinkRequest.h in Headers */,
+				EE0CE059FA7E3427EB1B29411A853B40 /* OSSPutSymlinkResult.h in Headers */,
+				E096320C57A54D9E5427E7765D8F4490 /* OSSReachability.h in Headers */,
+				FC2FDC3C4172009A5A706D14B77E43AA /* OSSReachabilityManager.h in Headers */,
+				A9EC6EAC3CD5F48EF0188C7C7443DCD8 /* OSSRequest.h in Headers */,
+				5B798C21E01283B08CEB4400DF754884 /* OSSRestoreObjectRequest.h in Headers */,
+				071B04ED7DC29F8694892A9465DC05DF /* OSSRestoreObjectResult.h in Headers */,
+				6C18F1130C9469B9C64DBA42000FAE41 /* OSSResult.h in Headers */,
+				F1097320E51690DF11B15B1E0D36CCD4 /* OSSService.h in Headers */,
+				2EAF7F8B195230DBA6C76EDC22E49F52 /* OSSTask.h in Headers */,
+				7920AF744958B4AE67E8F5FECF3DF9DA /* OSSTaskCompletionSource.h in Headers */,
+				E0EA49A8B1E42FBA836749A7739EFD50 /* OSSURLRequestRetryHandler.h in Headers */,
+				0CF1CE4274D0F19CD6796399C0FB22A0 /* OSSUtil.h in Headers */,
+				0A181FA53AEDA0FF0C153F9020E71401 /* OSSXMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58046F4016F6AB986529F2034BA1EF55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2D5C6DFE4CE745B18D748E7C74F019 /* Pods-SERequestManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C92AF290409054F167F11767B5529C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFFB31CA8AE7F16F7BF8BAE1DF31926 /* Pods-SERequestManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070B01910C64B9AFD0DB550EDE38D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C648280B2083C48AE0C4E8CC5D839B8 /* Pods-SERequestManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D32658E24F6487226DE3C7B6727860E /* Build configuration list for PBXNativeTarget "Pods-SERequestManager_Tests" */;
+			buildPhases = (
+				71C92AF290409054F167F11767B5529C /* Headers */,
+				72510CBB92AF0C7F9F211F7E281CB3D3 /* Sources */,
+				B122C51CE35F99AAD02E19698FBB7083 /* Frameworks */,
+				883564A14F3876895918473FB63F67FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09963D1CB42B566E2E0374FAFAF9F6A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SERequestManager_Tests";
+			productName = "Pods-SERequestManager_Tests";
+			productReference = 9BA16B99541CB416C569EB234C528DB1 /* Pods_SERequestManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1FD11F5F7EBFF63F845CDF963F73E1A /* AliyunOSSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FCA93DFA5A1DA9F79C681E294D80F6 /* Build configuration list for PBXNativeTarget "AliyunOSSiOS" */;
+			buildPhases = (
+				406046CE029534242B9FD7AA8A431CD1 /* Headers */,
+				D45745210AAD24E77A4F0CCEAA399B50 /* Sources */,
+				1DE5F655BC2B6E1833A21D8960F20B7F /* Frameworks */,
+				A93575268FAB0504F7FD2B373CF8C8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunOSSiOS;
+			productName = AliyunOSSiOS;
+			productReference = 14A3FE4DA4CE007A926AAC6102122F2E /* AliyunOSSiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3F73D0ACEA50BFBA99B15FFBC90EC4F /* SERequestManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842F4AA4CD91AA924CAF25DC5854BFBE /* Build configuration list for PBXNativeTarget "SERequestManager" */;
+			buildPhases = (
+				283FB531A1BE081B4C001819F95B5F6D /* Headers */,
+				2BE0C505D1860083534B6E5D00174EF6 /* Sources */,
+				822591616D51BF9827A9BA708C13166D /* Frameworks */,
+				DB103271DB7ADEF005771CED60B4D42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396CA4EFB9E23947B01D0931B94A89B5 /* PBXTargetDependency */,
+				07544DC4C4041A029681BB6B52374BCC /* PBXTargetDependency */,
+			);
+			name = SERequestManager;
+			productName = SERequestManager;
+			productReference = 3BFAA9201C21C1F7BE3A7EA1A1D23CD5 /* SERequestManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				8070B01910C64B9AFD0DB550EDE38D6B /* Headers */,
+				2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */,
+				9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */,
+				9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF86D106AAFECC6F30DF95BD5C76D023 /* Pods-SERequestManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04929F6ABB164CF7577AA3242AAD5E80 /* Build configuration list for PBXNativeTarget "Pods-SERequestManager_Example" */;
+			buildPhases = (
+				58046F4016F6AB986529F2034BA1EF55 /* Headers */,
+				3A63CC15C7130898A924F7A68E2DE910 /* Sources */,
+				30C300635F20FF7515C2614B2BE0CD1A /* Frameworks */,
+				79E5F2622436038296FBB9B1BA919193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADE0A0C57B9A0E07775613DBE164E59 /* PBXTargetDependency */,
+				A672B83BB1811D97AB8A61EF26E17A62 /* PBXTargetDependency */,
+				DEBCE7721202B6963BFCC7001D1CFF85 /* PBXTargetDependency */,
+			);
+			name = "Pods-SERequestManager_Example";
+			productName = "Pods-SERequestManager_Example";
+			productReference = 845131EE0DFEA8FEFC7C1D0F2E68E1D7 /* Pods_SERequestManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0A0D0B84C8A8CA94202E54CB7619F763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				C1FD11F5F7EBFF63F845CDF963F73E1A /* AliyunOSSiOS */,
+				FF86D106AAFECC6F30DF95BD5C76D023 /* Pods-SERequestManager_Example */,
+				0C648280B2083C48AE0C4E8CC5D839B8 /* Pods-SERequestManager_Tests */,
+				C3F73D0ACEA50BFBA99B15FFBC90EC4F /* SERequestManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E5F2622436038296FBB9B1BA919193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883564A14F3876895918473FB63F67FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93575268FAB0504F7FD2B373CF8C8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB103271DB7ADEF005771CED60B4D42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE0C505D1860083534B6E5D00174EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C896439FC0AEE95AB36D87E2808E7 /* AnalyzeResponse.swift in Sources */,
+				D1B64733E0BF3D6655208D75659AAFBA /* CredentialModel.swift in Sources */,
+				7790AB4F27DE39036FA0DB45A4B031AE /* NetworkManager.swift in Sources */,
+				327A69CD53D4C843D10FA89AE546E915 /* SERequestManager-dummy.m in Sources */,
+				38B20A5B77A7F7758F85C10531EE9626 /* UIImageExtension.swift in Sources */,
+				FAF88B91D40B4ED99CA36B6ECFCCE759 /* UploadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */,
+				C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */,
+				C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */,
+				72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */,
+				DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */,
+				ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */,
+				0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */,
+				27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */,
+				6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */,
+				91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */,
+				013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */,
+				45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */,
+				D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */,
+				19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */,
+				8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */,
+				0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */,
+				4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */,
+				D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */,
+				218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */,
+				666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */,
+				EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */,
+				6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */,
+				6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */,
+				C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */,
+				911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */,
+				66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */,
+				9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */,
+				47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */,
+				6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */,
+				381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */,
+				212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */,
+				9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */,
+				D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */,
+				F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A63CC15C7130898A924F7A68E2DE910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9F85D732B1C3754A7FD02461429A89 /* Pods-SERequestManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72510CBB92AF0C7F9F211F7E281CB3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF4A9F3F2A6032864A665EE40570E26 /* Pods-SERequestManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45745210AAD24E77A4F0CCEAA399B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5F2F3F5888E2C14F3A7B59026B6EEF /* AliyunOSSiOS-dummy.m in Sources */,
+				D1C84FBFFEFBC401BD9EB6DE4CB384DD /* aos_crc64.c in Sources */,
+				7DDC854F584A3B18656D3A4A53BA0A09 /* NSDate+OSS.m in Sources */,
+				8E28B0D6E9198FAE5CCF4C9E9962EB54 /* NSMutableData+OSS_CRC.m in Sources */,
+				018E7A8B4839BE08E798EB2171DD5CF0 /* NSMutableDictionary+OSS.m in Sources */,
+				F21317EC249C47CE2FB578760652712A /* OSSAllRequestNeededMessage.m in Sources */,
+				A7C300B9C8619740693E8C7A74187F8B /* OSSBolts.m in Sources */,
+				EF78BED4C128D5BBB90C94890C1453F7 /* OSSCancellationToken.m in Sources */,
+				45C27FDBEDC8BB7E2ACDABB0D2C647B0 /* OSSCancellationTokenRegistration.m in Sources */,
+				3647BF43DDA8F12DAA4BD98E32CB4778 /* OSSCancellationTokenSource.m in Sources */,
+				1426268AD5CF24CEAA172A87473952E6 /* OSSClient.m in Sources */,
+				1AEB8B02B85940F6DE880F6E6A80884A /* OSSCompat.m in Sources */,
+				EDAED85A1D7269FDA33312B12B73C251 /* OSSConstants.m in Sources */,
+				7123D6113F13744AFB5D33EBECCB85DD /* OSSDDLog.m in Sources */,
+				4A16606B70A1263CB6A555201EDEF51F /* OSSDeleteMultipleObjectsRequest.m in Sources */,
+				9D90425FBA73DC4FD471E0C6F0B6B456 /* OSSDeleteMultipleObjectsResult.m in Sources */,
+				A042B25C26D71C806B01FD7A05882F44 /* OSSExecutor.m in Sources */,
+				215F87685075904E78BFE3D315B268FD /* OSSFileLogger.m in Sources */,
+				9B1143540D2D22FA7F7E046C31F9EEAD /* OSSGetBucketInfoRequest.m in Sources */,
+				A879B8AB4FE4DF0D31CF4BBFF36D1445 /* OSSGetBucketInfoResult.m in Sources */,
+				273318B7B696EA4E3C66CFB5EDCB685F /* OSSGetObjectACLRequest.m in Sources */,
+				D385F6435E802C0CF6435DD93E949C29 /* OSSGetObjectACLResult.m in Sources */,
+				42E7197A935DD9F25D2F4619FA0FC7A1 /* OSSGetSymlinkRequest.m in Sources */,
+				BBFE985446128878A006DA16C00169C2 /* OSSGetSymlinkResult.m in Sources */,
+				E091F93C8660ACD457F2199693E12D5E /* OSSHttpdns.m in Sources */,
+				502823DCA6E015C547FB5686D87AE2AD /* OSSHttpResponseParser.m in Sources */,
+				BBFC625F967BC64631F5864FE7CDFA24 /* OSSInputStreamHelper.m in Sources */,
+				FD74D4E9805C4CF8B5A19DBD146E2358 /* OSSIPv6Adapter.m in Sources */,
+				A0CAB970E151A8474D33EEA58ECBCFCC /* OSSIPv6PrefixResolver.m in Sources */,
+				622446F539FD44C811285E4B2ECD1F93 /* OSSLog.m in Sources */,
+				A3B307B49CBFB6C6705EBB6070B9C6BC /* OSSModel.m in Sources */,
+				DDF4E540165C1957DB365D5143FA67B1 /* OSSNetworking.m in Sources */,
+				B8569A63B410883F757627E2B821D099 /* OSSNetworkingRequestDelegate.m in Sources */,
+				E84AD0CA3BA20AE466D617BA7D9288EC /* OSSNSLogger.m in Sources */,
+				78B1F7AF2AE722E0E1B9A419A5A00AB6 /* OSSPutSymlinkRequest.m in Sources */,
+				1B9AB9B82741579088F4DC456E59A886 /* OSSPutSymlinkResult.m in Sources */,
+				78B866A6DE55E62FDCFED3A62660F833 /* OSSReachability.m in Sources */,
+				FF9079DACB7DC64ED83CEA915076670B /* OSSReachabilityManager.m in Sources */,
+				22F3DCDEA26D5C4575D4E96F931BEB28 /* OSSRequest.m in Sources */,
+				F4E39D9EE750CD30905D6D7AA8C7FF04 /* OSSRestoreObjectRequest.m in Sources */,
+				73CBE7E6F4357D65B69FD6B457074044 /* OSSRestoreObjectResult.m in Sources */,
+				1FF94E169E55EDE1E2ED37C20CDA87DD /* OSSResult.m in Sources */,
+				0E1EC5641F2709DB49B95BDFC11DCC06 /* OSSTask.m in Sources */,
+				DF4D5BD2ED028F2194147809431457A5 /* OSSTaskCompletionSource.m in Sources */,
+				BB2C15E80EAD83BCBD8AD5FE3AE65588 /* OSSURLRequestRetryHandler.m in Sources */,
+				9FA7F458D20D68AFC51F9E231F6DB03F /* OSSUtil.m in Sources */,
+				B2BD0F84BFABB12BF92C3127E2BA236C /* OSSXMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07544DC4C4041A029681BB6B52374BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			target = C1FD11F5F7EBFF63F845CDF963F73E1A /* AliyunOSSiOS */;
+			targetProxy = C610130CDEB64F4B235F42EA702AD829 /* PBXContainerItemProxy */;
+		};
+		09963D1CB42B566E2E0374FAFAF9F6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SERequestManager_Example";
+			target = FF86D106AAFECC6F30DF95BD5C76D023 /* Pods-SERequestManager_Example */;
+			targetProxy = 535F2A1D874CD7088DF71AABB4E18A84 /* PBXContainerItemProxy */;
+		};
+		396CA4EFB9E23947B01D0931B94A89B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 616492897CCDE14C69A95D97DA526B25 /* PBXContainerItemProxy */;
+		};
+		A672B83BB1811D97AB8A61EF26E17A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			target = C1FD11F5F7EBFF63F845CDF963F73E1A /* AliyunOSSiOS */;
+			targetProxy = 6E7E06397B23ACFFC56888BAF5BFD963 /* PBXContainerItemProxy */;
+		};
+		DEBCE7721202B6963BFCC7001D1CFF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SERequestManager;
+			target = C3F73D0ACEA50BFBA99B15FFBC90EC4F /* SERequestManager */;
+			targetProxy = 94C41023F61EB17C48DF63434A9459FD /* PBXContainerItemProxy */;
+		};
+		EADE0A0C57B9A0E07775613DBE164E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 906C98AD1684FCC185938335612F21D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD97D6EB4372A9C47292D9D1BDD7E6BB /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25846B9C528AAB3436AA1DC5E87F361C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D468DA165DE0E6AA5E67AFDAE51E97 /* Pods-SERequestManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERequestManager_Example/Pods-SERequestManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERequestManager_Example/Pods-SERequestManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43B6F505F075F73BF3ED06D351B66CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E964E8116527A59FF8894B3400315274 /* AliyunOSSiOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS.modulemap";
+				PRODUCT_MODULE_NAME = AliyunOSSiOS;
+				PRODUCT_NAME = AliyunOSSiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49B04D916D0A1CD57B7AC2C90242AC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DE5A18E6347A37A8235152770280F0 /* SERequestManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SERequestManager/SERequestManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SERequestManager/SERequestManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SERequestManager/SERequestManager.modulemap";
+				PRODUCT_MODULE_NAME = SERequestManager;
+				PRODUCT_NAME = SERequestManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		85D78A8AD0FEADB0EB5740F1D622AFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE0437A2B330F004C81D512602D739C /* Pods-SERequestManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERequestManager_Tests/Pods-SERequestManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERequestManager_Tests/Pods-SERequestManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A732AD8256DDAE793D7EC16AFF62A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD1B760C023B10427D658393F8EB165 /* AliyunOSSiOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS.modulemap";
+				PRODUCT_MODULE_NAME = AliyunOSSiOS;
+				PRODUCT_NAME = AliyunOSSiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B66E952E27F29569285AB82461A2F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266CDA6CCF9330C07F7960626F70D6E8 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE58F7F26CB3B481908602127B5FD483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F26DA2ED3DCE37024F0A59052C81C4 /* Pods-SERequestManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERequestManager_Tests/Pods-SERequestManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERequestManager_Tests/Pods-SERequestManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D199ECCF873C00DBFE7382B5E6022007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097B9278ACDC7B8594875F3B5E5D7799 /* SERequestManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SERequestManager/SERequestManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SERequestManager/SERequestManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SERequestManager/SERequestManager.modulemap";
+				PRODUCT_MODULE_NAME = SERequestManager;
+				PRODUCT_NAME = SERequestManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFB628E5FC3C48DB7E8817CA7EF03CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E3B980FE51013E775DFF7B5F0C9C83 /* Pods-SERequestManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERequestManager_Example/Pods-SERequestManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERequestManager_Example/Pods-SERequestManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04929F6ABB164CF7577AA3242AAD5E80 /* Build configuration list for PBXNativeTarget "Pods-SERequestManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25846B9C528AAB3436AA1DC5E87F361C /* Debug */,
+				EFB628E5FC3C48DB7E8817CA7EF03CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FCA93DFA5A1DA9F79C681E294D80F6 /* Build configuration list for PBXNativeTarget "AliyunOSSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A732AD8256DDAE793D7EC16AFF62A3B /* Debug */,
+				43B6F505F075F73BF3ED06D351B66CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D32658E24F6487226DE3C7B6727860E /* Build configuration list for PBXNativeTarget "Pods-SERequestManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE58F7F26CB3B481908602127B5FD483 /* Debug */,
+				85D78A8AD0FEADB0EB5740F1D622AFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */,
+				9B66E952E27F29569285AB82461A2F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842F4AA4CD91AA924CAF25DC5854BFBE /* Build configuration list for PBXNativeTarget "SERequestManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D199ECCF873C00DBFE7382B5E6022007 /* Debug */,
+				49B04D916D0A1CD57B7AC2C90242AC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

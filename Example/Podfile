@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SERequestManager_Example' do
+  pod 'SERequestManager', :path => '../'
+
+  target 'SERequestManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
